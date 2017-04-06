@@ -2,11 +2,7 @@ body {
 	font: 400 15px/1.8 Lato, sans-serif;
 	color: #777;
 }
-#header-top {
-	border-top: 5px solid #04142b;
-	background-color: #fff;
-	color: #fff;
-}
+
 
 #logo {
 	margin: 10px 0;
@@ -21,9 +17,6 @@ body {
 	text-align: center;
 }
 
-.container {
-      padding: 80px 120px;
-  }
   
 .container-fluid {
     padding-right: 0;
@@ -33,7 +26,7 @@ body {
 }
 
 .img-thumbnail, .trd-image-with-overlay img, .trd-image-wrapper img, .trd-team-member .trd-member-img-wrapper img, img {
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .navbar-inverse {
@@ -43,24 +36,33 @@ body {
 
 .navbar {
 	border-radius: 0px;
-	position: relative;	
 	min-height: 50px;
     margin-bottom: 0;
 }
 
 .navbar-fixed-top {
-    position: initial;
+    position: fixed;
     right: 0;
     left: 0;
     z-index: 1030;
-	top: 96px;
+    top: 0;
+    opacity: 0.9;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 8px 36px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 0;
 }
 
 .navbar-nav {
-	float: left;
+	float: right;
 }
 .nav {
-	padding-left: 50px;
+	padding-left: 0px;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -164,21 +166,4 @@ a {
   .carousel-caption h3 {
       color: #fff !important;
   }
-  
-  } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
